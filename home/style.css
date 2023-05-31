@@ -1,0 +1,136 @@
+* {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --branco: #FFFFFF;
+
+}
+
+header {
+    background: linear-gradient(90.05deg, #000000 24.85%, #006384 64.76%, #002F45 99.45%), #006384;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    text-align: center;
+    color: var(--branco);
+
+    width: 1440px;
+    
+}
+
+
+main {
+    background-image: url(../img/background.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    font-size: 30px;
+
+
+}
+
+.menu {
+    image-rendering: 50px;
+
+}
+
+img {
+    width: 25%;
+}
+
+
+aside {
+
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+    position: absolute;
+    width: 298px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 30px;
+    margin: 10px;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 150px;
+    text-align: center;
+
+
+
+}   
+
+aside>div>a{
+    background: rgba(0, 86, 115, 0.09);
+    border: 0.3px solid #C8D5DC;
+    box-shadow: 0px 4px 19px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 24px;
+    
+
+
+}
+
+.btn {
+
+    background: rgba(0, 86, 115, 0.09);
+    border: 0.3px solid #C8D5DC;
+    box-shadow: 0px 4px 19px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    color: var(--branco);
+
+    align-items: center;
+     text-align: center;
+
+
+
+}
+
+.input {
+
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 5px;
+
+    color: var(--branco);
+    width: 100%;
+
+}
+
+a:link {
+    color: var(--branco);
+}
+
+
+a:visited {
+    color: var(--branco);
+
+}
